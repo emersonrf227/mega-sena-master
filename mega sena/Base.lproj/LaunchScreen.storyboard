@@ -18,12 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="launchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="K55-2x-j96">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="K55-2x-j96">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="K55-2x-j96" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RAK-0C-h4K"/>
+                            <constraint firstAttribute="bottom" secondItem="K55-2x-j96" secondAttribute="bottom" id="aiN-2f-O6D"/>
+                            <constraint firstItem="K55-2x-j96" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="nh6-Gs-Es2"/>
+                            <constraint firstItem="K55-2x-j96" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tCI-Ow-I5E"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
